@@ -22,7 +22,8 @@ a = b;
 
 After this code executes, what are the values of a and b? Please explain your answer.
 
-<!-- Replace this comment with your answer -->
+Var a = 3
+var b = 3
 
 ## Question 2
 
@@ -34,7 +35,9 @@ c = c + d;
 
 After this code executes, what is the value of c?  Please explain what the last line of this program `c = c + d;` means.
 
-<!-- Replace this comment with your answer -->
+7
+
+the last line is taking the value of c and adding the value of d, in order to get the new value of c.
 
 ## Question 3
 
@@ -47,7 +50,11 @@ y = 10;
 
 After this code executes, what are the values of x and y?  Please explain your answer.
 
-<!-- Replace this comment with your answer -->
+Var x = 3
+Var y = 10
+
+x = y is assiging a new value to x (which is y or 3.
+the last line then changes the value of y to 10
 
 ## Question 4
 
@@ -59,7 +66,8 @@ weather === "sunny";
 
 What are the values of these expressions?  Explain your answers.
 
-<!-- Replace this comment with your answer -->
+weather = "sunny"; is assining a string to the variable weather
+weather === "sunny" will result in true because it is asking if weather is equal to "sunny" which it is.
 
 ## Question 5
 
@@ -71,7 +79,7 @@ if (howMuchILikeSushi >= 3) {
 }
 
 if (x > 0) {
-  console.log("sushi is tasty");  
+  console.log("sushi is tasty");
 }
 ```
 
@@ -79,17 +87,16 @@ Imagine that you take the code from this question, save it to a file called `foo
 
 What would be the output? Explain your answer.
 
-<!-- Replace this comment with your answer -->
 
-## Question 6
+There would be an error statement since x is not defined. instead of x it should be howMUchILikeSushi > 0
 
 ```js
 var howMuchILikeSushi = 2;
 
 if (howMuchILikeSushi > 0) {
-  console.log("sushi is tasty");  
+  console.log("sushi is tasty");
 } else if (x >= 3) {
-  console.log("sushi is delicious");  
+  console.log("sushi is delicious");
 } else {
   console.log("I don't like sushi");
 }
@@ -99,7 +106,7 @@ Imagine that you take the code from this question, save it to a file called `sus
 
 What would be the output? Explain your answer.
 
-<!-- Replace this comment with your answer -->
+Sushi is tasty becasue if statements take the first true expression which in this case it is howMuchILikeSushi > 0
 
 ## Question 7
 
@@ -118,7 +125,7 @@ Imagine that you take the code from this question, save it to a file called `nam
 
 What would you have to type to exit the while loop?  Explain your answer.
 
-<!-- Replace this comment with your answer -->
+To exit the while loop you would have to type nothing (empty string). This will satisfy the preq or expression.
 
 ---
 
